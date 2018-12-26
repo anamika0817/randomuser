@@ -1,0 +1,109 @@
+html{
+	padding-left:1%;
+	padding-right:1%;
+}
+
+.container {
+    --downloads-card-margin: 24px;
+    --downloads-card-width: 640px;
+    background: #f1f1f1;
+}
+.contenth1 {
+    
+    background: #FFE600;
+    background: #c90404;
+	background: #0092c8;
+    color: #fff;
+    text-shadow: #007dab 0 1px 0;
+    text-shadow: #F3F2F2 2px 1px 1px;
+    text-shadow: #F0ECEC 2px 1px 1px;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 18px 23px;
+    margin: 0 0 1.5em 0;
+    border-bottom: 1px solid #007dab;
+    border-bottom: 1px solid #cccccc;
+	text-align:center;
+}
+.iframe {
+	width: 100%;
+    border: none;
+    background-color: #fff !important;
+    height: 40px;
+}
+#divTitle {
+	text-align: center;
+    font-size: 20px;
+    font-weight: 800;
+    font-style: oblique;
+    color: darkgoldenrod;
+}
+.rows{
+	display: flex;
+    width: 100%;
+	padding: .3% 0 .3% 0;
+}
+.col-1{
+	width:8.3%;
+}
+.col-2{
+	width:21%;
+}
+.col-3{
+	width:24.9%;
+}
+.col-4{
+	width:33.2%;
+}
+.col-5{
+	width:41.5%;
+}
+.col-6{
+	width:50%;
+}
+.col-7{
+	width:58.3%;
+}
+.col-8{
+	width:66.6%;
+}
+.col-9{
+	width:74.9%;
+}
+.col-10{
+	width:82.2%;
+}
+.col-11{
+	width:91.5%;
+}
+.col-12{
+	width:100%;
+}
+
+/* button style*/
+.button {
+    border: 0;
+    padding: 0 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    background: #c90404;
+	background: #0092c8;
+    border: 1px solid #cccccc;
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+/* none style */
+.border-none{
+	border: none !important;
+}
+/* background Color*/
+.backgroundTransparent{
+	background: transparent !important;
+}
